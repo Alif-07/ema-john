@@ -1,0 +1,21 @@
+.search-container {
+	background-color: rgba(0, 0, 0, 0.85);
+	text-align: center;
+	line-height: 40px;
+	padding: 5px 0;
+}
+.search-container input {
+	width: 75%;
+	padding: 5px 0;
+}
+.shop {
+	display: grid;
+	grid-template-columns: 3fr 1fr;
+	/* justify-content: center; */
+	/* align-items: baseline; */
+}
+.product {
+	border-right: 1px solid lightgrey;
+	margin-right: 5px;
+	margin-left: 50px;
+}

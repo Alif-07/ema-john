@@ -1,6 +1,6 @@
 .product {
-	display: grid;
-	grid-template-columns: 1fr 2fr;
+	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	border-bottom: 1px solid lightgray;
@@ -9,6 +9,12 @@
 	margin-left: 50px;
 	padding-left: 50px;
 	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+.grid {
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	grid-column-gap: 20px;
 }
 .product-name {
 	color: blue;
@@ -21,4 +27,7 @@
 	border: 1px solid gray;
 	border-radius: 5px;
 	cursor: pointer;
+}
+.icon-color {
+	color: gold;
 }
